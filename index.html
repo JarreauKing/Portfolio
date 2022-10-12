@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jarreau King</title>
+</head>
+<body>
+    <section class="showcase">
+        <header>
+            <a href="#"><img class="logo" src="images/logoBW.png" alt="logo"></a>
+            <div class="toggle"></div>
+        </header>
+        <div class="overlay"></div>
+        <div class="text">
+        <h2>Hi,</h2>
+        <h2>I Am Jarreau King</h2>
+        <h2>I Am A Full Stack Web Developer</h2>
+        <a href="#">Explore</a>
+        </div>
+        <ul class="social">
+            <li><a href="mailto:king.jarreau@gmail.com"><img src="images/email.png" alt="email"></a><li>
+            <li><a href="https://github.com/JarreauKing"><img src="images/github.png" alt="github"></a><li>
+            <li><a href="https://www.linkedin.com/in/jarreauking/"><img src="images/linkedin.png" alt="linkedin"></a><li>
+        </ul>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <script>
+         const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+    </script>
+</body>
+</html>
