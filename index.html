@@ -8,44 +8,42 @@
     <title>Jarreau King</title>
 </head>
 <body>
-    <section class="showcase">
-        <header>
-            <a href="https://jarreauking.com"><img class="logo" src="images/logoBW.png" alt="logo"></a>
-            <div class="toggle"></div>
-        </header>
-        <div class="overlay"></div>
-        <div class="text">
-        <h2>Hi,</h2>
-        <h2>I Am Jarreau King.</h2>
-        <h2>I Am A Full Stack Web Developer.</h2>
-        <a href="#">Explore</a>
-        </div>
-        <ul class="social">
-            <li><a href="mailto:king.jarreau@gmail.com"><img src="images/email.png" alt="email"></a><li>
-            <li><a href="https://github.com/JarreauKing" target="_blank"><img src="images/github.png" alt="github"></a><li>
-            <li><a href="https://www.linkedin.com/in/jarreauking/" target="_blank"><img src="images/linkedin.png" alt="linkedin"></a><li>
-            <li><a href="https://twitter.com/JarreauKing" target="_blank"><img src="images/twitter.png" alt="twitter"></a><li>
-                <li><a href="https://www.instagram.com/jarreau.king/" target="_blank"><img src="images/instagram.png" alt="instagram"></a><li>
-        </ul>
-    </section>
-
-    <div class="menu">
-        <ul>
+    <header>
+        <a href="https://jarreauking.com"><img class="logo" src="images/logoBW.png" alt="logo"></a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <nav>
+          <ul>
             <li><a href="https://jarreauking.com">Home</a></li>
             <li><a href="#">About</a></li>
             <li><a href="#">Work</a></li>
             <li><a href="/contact/contact.html">Contact</a></li>
-        </ul>
-    </div>
+          </ul>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+      </header>
+      
+      
+      <div class="content">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <h2>Hi,</h2>
+        <h2>I am Jarreau King.</h2>
+        <h2>I am a full stack web developer.</h2>
+    
+      </div>
 
-    <script>
-         const menuToggle = document.querySelector('.toggle');
-      const showcase = document.querySelector('.showcase');
+      <ul class="social">
+        <li><a href="mailto:king.jarreau@gmail.com"><img src="images/email.png" alt="email"></a><li>
+        <li><a href="https://github.com/JarreauKing" target="_blank"><img src="images/github.png" alt="github"></a><li>
+        <li><a href="https://www.linkedin.com/in/jarreauking/" target="_blank"><img src="images/linkedin.png" alt="linkedin"></a><li>
+        <li><a href="https://twitter.com/JarreauKing" target="_blank"><img src="images/twitter.png" alt="twitter"></a><li>
+            <li><a href="https://www.instagram.com/jarreau.king/" target="_blank"><img src="images/instagram.png" alt="instagram"></a><li>
+    </ul>
 
-      menuToggle.addEventListener('click', () => {
-        menuToggle.classList.toggle('active');
-        showcase.classList.toggle('active');
-      })
-    </script>
 </body>
 </html>
