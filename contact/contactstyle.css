@@ -91,6 +91,18 @@ list-style:none;
   margin: 0 0 1rem 0;
 }
 
+.social{
+  bottom: 20px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.social li a:hover{
+  transform: scale(0.5) translateY(-15px);
+}
+
 .contact{
   background:#f9feff;
 }
