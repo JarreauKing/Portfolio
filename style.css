@@ -183,7 +183,8 @@ background-size: cover;
     }
     
     nav {
-      // all: unset; /* this causes issues with Edge, since it's unsupported */
+      
+      all: unset; /* this causes issues with Edge, since it's unsupported */
       
       /* the following lines are not from my video, but add Edge support */
 
