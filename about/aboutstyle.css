@@ -41,34 +41,13 @@ background-size: cover;
     height: 50px;
   }
 
-  .social{
-    position: absolute;
-    bottom: 20px;
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
 
-.social li{
-    list-style: none;
-}
 
-.social li a{
-    display: inline-block;
-    margin-right: 20px;
-    transform: scale(0.8);
-    transition: 0.5s;
-}
+/* navigation styles start here */
+  
 
-.social li a:hover{
-    transform: scale(0.5) translateY(-15px);
-}
-  
-  
-  /* navigation styles start here */
-  
-  header {
+
+header {
     background: var(--background);
     text-align: center;
     position: fixed;
