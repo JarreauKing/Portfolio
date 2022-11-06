@@ -23,6 +23,17 @@
     overflow: hidden;
 }
 
+.video-container{
+
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%)
+  }
+
 .video-container:after{
   content:'';
   position: absolute;
