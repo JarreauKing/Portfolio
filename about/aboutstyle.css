@@ -36,11 +36,14 @@
 }
 
 @media (max-width: 767px) {
-  #videoBG {
+  .video-container{
       display: none;
   }
   body {
-      background: url("images/video-still.jpg");
+      background: url("images/video-still.jpg") no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
       background-size: cover;
   }
 }
