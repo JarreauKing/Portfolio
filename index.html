@@ -1,49 +1,141 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Jarreau King</title>
-</head>
-<body>
-    <header>
-        <a href="https://jarreauking.com"><img class="logo" src="images/logoBW.png" alt="logo"></a>
-        <input type="checkbox" id="nav-toggle" class="nav-toggle">
-        <nav>
-          <ul>
-            <li><a href="https://jarreauking.com">Home</a></li>
-            <li><a href="/about/about.html">About</a></li>
-            <li><a href="#">Work</a></li>
-            <li><a href="/contact/contact.html">Contact</a></li>
-          </ul>
-        </nav>
-        <label for="nav-toggle" class="nav-toggle-label">
-          <span></span>
-        </label>
-      </header>
-      
-      
-      <div class="content">
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <h2>Hi,</h2>
-        <h2>I am Jarreau King.</h2>
-        <h2>I am a full stack web developer.</h2>
-    
-      </div>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<title>Jarreau King - Web Dev</title>
+	</head>
+	<body class="is-preload">
 
-      <ul class="social">
-        <li><a href="mailto:king.jarreau@gmail.com"><img src="images/email.png" alt="email"></a><li>
-        <li><a href="https://github.com/JarreauKing" target="_blank"><img src="images/github.png" alt="github"></a><li>
-        <li><a href="https://www.linkedin.com/in/jarreauking/" target="_blank"><img src="images/linkedin.png" alt="linkedin"></a><li>
-        <li><a href="https://twitter.com/JarreauKing" target="_blank"><img src="images/twitter.png" alt="twitter"></a><li>
-            <li><a href="https://www.instagram.com/jarreau.king/" target="_blank"><img src="images/instagram.png" alt="instagram"></a><li>
-    </ul>
+		<!-- Header -->
+			<header id="header">
+				<h1>Jarreau King</h1>
+				<nav>
+					<ul>
+						<li><a href="#intro">Home</a></li>
+						<li><a href="#one">About</a></li>
+						<li><a href="#two">Services</a></li>
+						<li><a href="#work">Work</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
 
-</body>
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<header>
+						<h2>Hi.</h2>
+					</header>
+					<p>I am <strong>Jarreau King.</strong>
+					<br />
+					 I am a Full Stack Web Developer.</p>
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>About</h2>
+					</header>
+					<p>I am a full stack web developer based out of Atlantic City, NJ. I am a passionate developer with a focus on front-end web development. A natural leader and a strong communicator, I help bridge the gap between the business and technology world. My main objective is to build amazing websites/products and solve problems for different industries and niches using the power of technology.I seek to develop new relationships in order to provide the best support possible for my clients, ensuring that every interaction brings forth a positive outcome.</p>
+				</div> 
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Services</h2>
+					</header>
+					<p> Knowing what to expect when we work together is critical - here is how I deliver success:
+					<br>
+					<br>
+						<b>Consultation</b> - It all begins with a conversation where we'll pinpoint what this project is all about.
+						<br>
+						<br>
+						<b>Proposal</b> - A detailed project proposal including a visual preview will be presented and a plan of action will be decided.
+						<br>
+						<br>
+						<b>Creation</b> - Clients receive regular updates regarding their project status while I create and test it.
+						<br>
+						<br>
+						<b>Launch & Support</b> - Peace of mind is delivered with the final project in the form of available ongoing support.
+					</p>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>Work</h2>
+					</header>
+
+					<!-- Gallery  -->
+					<a href="https://warrenking.netlify.app/" target="_blank"><img class="image fit" src="/images/fulls/wkdesigns.jpg">
+					<p>Warren King Designs</p></a>
+						
+				</div>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Let's Connect</h2>
+						<p>I am currently accepting new freelance clients, coffee chats and employment opportunities.</p>
+					</header>
+					<div class="box">
+						<form name="contact" method="POST" data-netlify="true">
+							<div class="fields">
+								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
+								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
+								<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+							</div>
+							<ul class="actions special">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</form>
+					</div>
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="icons">
+						<li><a href="mailto:king.jarreau@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="https://github.com/JarreauKing" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://www.linkedin.com/in/jarreauking/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy;Jarreau King. All rights reserved.</li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
 </html>
